@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Funcionalidades</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #ffffff;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .column {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .middle-space {
+            width: 30%;
+            height: 100%;
+            background-color: #f9f9f9;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #aaa;
+            font-size: 16px;
+        }
+
+        .feature {
+            background-color: #b19cd9; /* Roxo suave */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .feature img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .feature-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .feature-description {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        h2 {
+            text-align: center;
+            color: #5e4b8b;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+
+        <!-- Coluna da esquerda -->
+        <div class="column">
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/3208/3208723.png" alt="Procedimentos">
+                <div class="feature-title">Acompanhamento de Procedimentos</div>
+                <div class="feature-description">
+                    Tenha controle fácil de todas as consultas, exames e etapas importantes da sua gestação.
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/3050/3050525.png" alt="Medicamentos">
+                <div class="feature-title">Medicamentos</div>
+                <div class="feature-description">
+                    Organize seus medicamentos de forma segura, com lembretes e informações essenciais.
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/135/135620.png" alt="Alimentação">
+                <div class="feature-title">Alimentação</div>
+                <div class="feature-description">
+                    Dicas práticas para uma alimentação equilibrada, saudável e que faz bem para você e seu bebê.
+                </div>
+            </div>
+        </div>
+
+        <!-- Espaço do meio reservado para o formulário -->
+        <div class="middle-space">
+            Espaço reservado para o formulário
+        </div>
+
+        <!-- Coluna da direita -->
+        <div class="column">
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/869/869636.png" alt="Bem-Estar">
+                <div class="feature-title">Dicas de Bem-Estar</div>
+                <div class="feature-description">
+                    Rotinas leves e sugestões de autocuidado para manter sua saúde física e emocional em dia.
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" alt="Exercícios">
+                <div class="feature-title">Exercícios Fisioterapêuticos</div>
+                <div class="feature-description">
+                    Práticas simples e guiadas para aliviar desconfortos e fortalecer o corpo durante a gravidez.
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="https://cdn-icons-png.flaticon.com/512/728/728093.png" alt="Consumo de Água">
+                <div class="feature-title">Consumo de Água</div>
+                <div class="feature-description">
+                    Lembretes inteligentes para manter a hidratação que seu corpo precisa nessa fase tão especial.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+
+
