@@ -1,0 +1,104 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-image: url("wallpaper.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo-game {
+    margin-bottom: 20px;
+    width: 270px;
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background: rgba(255, 247, 247, 0.6);
+    padding: 30px;
+    border-radius: 40px;
+    text-align: center;
+    width: 300px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #a60c19;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group input[type="email"] {
+    width: 100%;
+    padding: 24px 140px 10px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #fdf6f8;
+    border: 1px solid #e07b83;
+    color: #e07b83;
+    color: #333;
+}
+
+.input-group input[type="email"]::placeholder {
+    color: #888;
+    font-size: 14px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-size: 12px;
+    color: #888;
+    pointer-events: none; /* evita clicar no label */
+}
+
+.button-group {
+    width: 100%;
+    text-align: right;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #e07b83;
+    color: #e07b83;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #e07b83;
+    color: #fff;
+}
+
+.logo-upe {
+    margin-top: 15px;
+    width: 150px;
+}
