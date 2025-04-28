@@ -5,7 +5,7 @@ Projeto da disciplina de Engenharia da Computação da UPE 2025-1
 # Passo a Passo para Rodar o Código
 
 
-### Passo 1 - Criar o  ambiente virtual.
+### Passo 1 - Criar o  ambiente virtual
 Por padrão o ambiente virtual está com o nome `myenv`, mas caso queria usar outro nome certifique de que o nome da pasta esteja presente no arquivo `.gitignore`)
 ```
  python -m venv myenv
@@ -41,6 +41,6 @@ Para rodar a aplicação, execute o seguinte comando:
 uvicorn backend.back:app --reload
 
 ```
-Acesse a API no navegador:
+# Acesse a API no navegador:
 
 http://127.0.0.1:8000/docs
