@@ -12,7 +12,9 @@ Por padrão o ambiente virtual está com o nome `myenv`, mas caso queria usar ou
 ```
 ### Passo 2- Ativar o ambiente virtual
 Toda vez que for iniciado o terminal é necessário realizar esse comando de ativar o *myenv* para que seja inicializado as bibliotecas necessárias para o projeto ser executado. 
+
 No Windows:
+
 ```
 .\myenv\Scripts\Activate
 
@@ -32,7 +34,7 @@ Esse passo deve ser realizado com o `myenv` ativado, para que as dependências f
 pip install -r requirements.txt
 ```
 
-### Passo 5 - Rodar a API
+### Passo 4 - Rodar a API
 
 Para rodar a aplicação, execute o seguinte comando:
 ```
