@@ -10,62 +10,66 @@
 </head>
 <body>
     <div class="container">
-        <h1>
-            <i class="fas fa-envelope me-2"></i>
-            Gerenciamento de Emails
-        </h1>
-        
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <!-- Formulário -->
-                    <div class="col-md-4 border-end">
-                        <h5 class="card-title mb-4">
-                            <i class="fas fa-edit me-2"></i>
-                            Adicionar/Editar Email
-                        </h5>
-                        <form id="itemForm">
-                            <input type="hidden" id="itemId">
-                            <div class="mb-3">
-                                <label for="email" class="form-label">
-                                    <i class="fas fa-at me-1"></i>
-                                    Email
-                                </label>
-                                <input type="email" class="form-control" id="email" required 
-                                       placeholder="Digite o email...">
+        <div class="main-container">
+            <div class="crud-content">
+                <h1>
+                    <i class="fas fa-envelope me-2"></i>
+                    Gerenciamento de Emails
+                </h1>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <!-- Formulário -->
+                            <div class="col-md-4 border-end">
+                                <h5 class="card-title mb-4">
+                                    <i class="fas fa-edit me-2"></i>
+                                    Adicionar/Editar Email
+                                </h5>
+                                <form id="itemForm">
+                                    <input type="hidden" id="itemId">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">
+                                            <i class="fas fa-at me-1"></i>
+                                            Email
+                                        </label>
+                                        <input type="email" class="form-control" id="email" required 
+                                               placeholder="Digite o email...">
+                                    </div>
+                                    <div class="d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fas fa-save me-2"></i>
+                                            Salvar
+                                        </button>
+                                        <button type="button" class="btn btn-secondary ms-2" id="cancelBtn" style="display: none;">
+                                            <i class="fas fa-times me-2"></i>
+                                            Cancelar
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="d-flex justify-content-end">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="fas fa-save me-2"></i>
-                                    Salvar
-                                </button>
-                                <button type="button" class="btn btn-secondary ms-2" id="cancelBtn" style="display: none;">
-                                    <i class="fas fa-times me-2"></i>
-                                    Cancelar
-                                </button>
-                            </div>
-                        </form>
-                    </div>
 
-                    <!-- Lista -->
-                    <div class="col-md-8">
-                        <h5 class="card-title mb-4">
-                            <i class="fas fa-list me-2"></i>
-                            Lista de Emails
-                        </h5>
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Email</th>
-                                        <th class="text-end">Ações</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="itemsList">
-                                    <!-- Os itens serão inseridos aqui via JavaScript -->
-                                </tbody>
-                            </table>
+                            <!-- Lista -->
+                            <div class="col-md-8">
+                                <h5 class="card-title mb-4">
+                                    <i class="fas fa-list me-2"></i>
+                                    Lista de Emails
+                                </h5>
+                                <div class="table-responsive">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>ID</th>
+                                                <th>Email</th>
+                                                <th class="text-end">Ações</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="itemsList">
+                                            <!-- Os itens serão inseridos aqui via JavaScript -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
